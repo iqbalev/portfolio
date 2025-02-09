@@ -1,13 +1,13 @@
-import Header from "./components/Header";
-import Main from "./components/Main";
-import Footer from "./components/Footer";
+import Header from "./components/Layout/Header";
+import Footer from "./components/Layout/Footer";
+import MainContent from "./components/MainContent";
 import "./styles/app.css";
 
 const App = () => {
   return (
     <>
       <Header />
-      <Main />
+      <MainContent />
       <Footer />
     </>
   );

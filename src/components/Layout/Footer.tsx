@@ -1,5 +1,5 @@
-import iconGitHub from "../assets/icons/icon-github.svg";
-import iconGmail from "../assets/icons/icon-gmail.svg";
+import iconGitHub from "../../assets/icons/icon-github.svg";
+import iconGmail from "../../assets/icons/icon-gmail.svg";
 
 const Footer = () => {
   return (
