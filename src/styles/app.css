@@ -20,11 +20,6 @@ a {
   text-decoration: none;
 }
 
-.tech-category img,
-.socials img {
-  height: 32px;
-}
-
 /* HEADER */
 header {
   display: flex;
@@ -96,6 +91,10 @@ nav ul li {
   align-items: center;
 }
 
+.tech-category img {
+  height: 32px;
+}
+
 /* Projects */
 .projects {
   display: flex;
@@ -110,4 +109,17 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 40px;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links img {
+  height: 32px;
 }
