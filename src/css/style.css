@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -11,4 +18,96 @@ li {
 a {
   color: initial;
   text-decoration: none;
+}
+
+.tech-category img,
+.socials img {
+  height: 32px;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  position: sticky;
+  top: 0;
+}
+
+h1 span {
+  font-style: italic;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  text-transform: uppercase;
+}
+
+/* MAIN */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+/* About */
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  font-size: 1.8rem;
+}
+
+.about-descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Tech */
+.tech {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  font-size: 1.4rem;
+}
+
+.tech-wrapper {
+  display: flex;
+}
+
+.tech-category {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-category ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.tech-category li {
+  display: flex;
+  align-items: center;
+}
+
+/* Projects */
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100dvh;
+  font-size: 1.4rem;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
 }
